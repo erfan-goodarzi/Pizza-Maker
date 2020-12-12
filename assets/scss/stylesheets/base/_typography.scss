@@ -1,0 +1,197 @@
+/**
+ * Basic typography style for copy text
+ */
+
+#pizza-header {
+    h1 {
+        @include font(72px, 600, $h-color, 1.9);
+    }
+
+    p {
+        @include font(40px, 300, $h-color, 1.8);
+    }
+}
+
+#my-menu {
+    @include font(25px, 400, $h-color, 1.1);
+
+}
+
+#info {
+    h2 {
+        @include font(29px, 800, $y-color, 1.1);
+    }
+
+    p {
+        @include font(15px, 400, $h-color, 1.8);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}
+
+#info-list {
+    h3 {
+        @include font(19px, 400, $o-color, 1.8);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p {
+        @include font(13px, 100, $h-color, 1.8);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.slider-desc {
+    direction: ltr;
+
+    h2 {
+        @include font(55px, 500, $h-color, 1.8);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h3 {
+        @include font(35px, 500, $y-color, 1.8);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p {
+        @include font(19px, 400, $h-color, 1.8);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    a {
+        padding: 15px 45px;
+        text-decoration: none;
+        display: inline-block;
+        border: 2px solid $y-color;
+        margin-top: 3rem;
+        @include font(19px, 400, $y-color, 1.8);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        &:hover {
+            transition: all 0.2s ease-in-out;
+            background: $gray-color;
+            color: $h-color;
+            border-radius: 3px;
+        }
+    }
+}
+
+#accor {
+    h2 {
+        @include font(52px, 600, $y-color, 1.8);
+    }
+
+    p {
+        @include font(19px, 400, $h-color, 1.8);
+    }
+
+    ol {
+        @include font(60px, bold, $o-color, 1.8);
+        font-family: $font-fir;
+
+        .a-title {
+            @include font(36px, 500, $y-color, 1.8);
+        }
+
+        .plus {
+            @include font(60px, 100, $h-color, 1.8);
+            font-family: $font-fir;
+        }
+    }
+
+    .body-c {
+        P {
+            @include font(20px, 400, $h-color, 1.8);
+            text-align: right;
+            padding-right: 2rem;
+        }
+        ul{
+            @include font(20px, 400, $o-color, 1.8);
+            padding-right: 3rem;
+            text-align: right;
+            margin-top: 1.3rem;
+        }
+    }
+}
+.c-up{
+   span{
+       &:first-child{
+        @include font(50px, 600, $h-color, 1.5);
+        font-family: $font-fir;
+       }
+       &:last-child{
+        @include font(23px, 400, $h-color, 1);
+        font-family: $font-fir;
+       }
+   }
+}
+#test{
+    h2{
+        @include font(40px, 800, $y-color, 1);
+        font-family: $font-fir;
+    }
+    .t-c{
+        @include font(17px, 100, $h-color, 1.7);
+        font-family: $font-fir;
+    }
+    h3{
+        @include font(27px, 400, $o-color, 1.7);
+    }
+    .sl-c{
+        @include font(16px, 300, $h-color, 1.6);
+        font-family: $font-fir;
+    }
+    .sl-riw{
+       span{
+         &:first-child{
+            @include font(23px, 300, $y-color, 1.6);
+         }
+         &:last-child{
+            @include font(23px, 300, $o-color, 1.6);
+         }
+       }
+    }
+}
+.app-cont{
+    h2,h3{
+        @include font(29px,600, $y-color, 1.8);
+        margin-bottom: 3rem;
+    }
+    p{
+        @include font(19px, 100, $h-color, 1.8);
+        margin-bottom: 2rem;
+    }
+    li{
+        @include font(17px, 100, $o-color, 1.8);
+    }
+    button{
+            @include font(18px, 100, $b-color, 1.8);
+        }
+}
+#news{
+    h1{
+        @include font(39px,600, $b-color, 1.8);
+        margin-bottom: 1rem;
+    }
+    input{
+        @include font(14px,200, $b-color, 1.8);
+        text-align: right;
+    }
+    button{
+        @include font(14px,100, $y-color, 1.8);
+    }
+}
+footer{
+    .footer{
+       
+        span{
+            @include font(69px,200, $o-color, 1.8);
+             text-align: center;
+             font-family: $font-fir;
+        }
+        h2{
+            @include font(30px,200, $o-color, 1.8);
+        }
+    }
+}

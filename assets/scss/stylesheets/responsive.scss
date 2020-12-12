@@ -1,0 +1,149 @@
+@media (max-width: 575.98px) {
+    #pizza-header .container p {
+        padding: 25px 23px;
+        font-size: 27px;
+    }
+
+    footer {
+        span {
+            font-size: 35px !important;
+        }
+
+        h2 {
+            font-size: 17px !important;
+        }
+    }
+
+    #test .sl-c {
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    .slider-img {
+        img {
+            width: 100%;
+            margin-top: 9rem;
+        }
+    }
+
+    #accor {
+        width: 80%;
+    }
+
+    #slider {
+        padding: 11rem;
+
+        .slider-desc {
+            h2 {
+                font-size: 25px;
+            }
+
+            h3 {
+                font-size: 19px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            a {
+                padding: 0px 13px;
+            }
+        }
+    }
+
+    #info-list {
+        margin: 6rem -2rem !important;
+        display: block !important;
+    }
+
+    #counter-up,
+    #app {
+        width: 109%;
+        margin-bottom: 5rem;
+    }
+
+    .c-up {
+        margin: 25px 68px !important;
+    }
+
+    #app .container {
+        display: block;
+
+        .app-img {
+            img {
+                width: 95%;
+            }
+        }
+
+        .app-link {
+            padding-bottom: 3rem;
+        }
+    }
+
+    #news {
+        width: 110%;
+
+        h1 {
+            font-size: 28px;
+        }
+    }
+
+    .n-input {
+        button {
+            position: relative;
+            top: 6rem;
+        }
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #pizza-header .container p {
+        padding: 15px 61px;
+    }
+
+    #app {
+        padding-top: 6rem;
+        padding-right: 8rem;
+        text-align: center;
+    }
+
+    #accor {
+        width: 88%;
+
+        .a-body {
+            display: block !important;
+        }
+    }
+
+    #test .sl-c {
+        margin-left: 12rem;
+    }
+
+    .slider-desc {
+        h2 {
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 19px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        a {
+            padding: 0px 13px;
+        }
+    }
+
+    #info-list {
+        margin: 1rem -5rem !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
