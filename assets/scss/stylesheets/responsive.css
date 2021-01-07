@@ -3,6 +3,38 @@
     padding: 25px 23px;
     font-size: 27px;
   }
+   #pizza-header{
+     width: 110%;
+   }
+   #pizza-menu{
+     width: 110%;
+   }
+   #info{
+    width: 108%;
+   }
+   #accor{
+     
+    margin-left: 43px !important;
+   }
+   #accor .a-body{
+    display: block!important;
+  }
+  #accor .container .a-body .body-img img{
+    width: 219px;
+  }
+  #accor .body-c P{
+    padding: unset;
+    font-size: 15px;
+  }
+  #test{
+    width: 110%;
+  }
+   #accor h2{
+     font-size: 30px  ;
+   }
+   #accor p{
+    font-size: 14px  ;
+   }
   footer span {
     font-size: 35px !important;
   }
@@ -84,6 +116,7 @@
   #accor .a-body {
     display: block !important;
   }
+
   #test .sl-c {
     margin-left: 12rem;
   }
