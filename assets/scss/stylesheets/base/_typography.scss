@@ -24,7 +24,7 @@
 
     p {
         @include font(15px, 400, $h-color, 1.8);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Vazir;
     }
 
 }
@@ -32,12 +32,12 @@
 #info-list {
     h3 {
         @include font(19px, 400, $o-color, 1.8);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Vazir;
     }
 
     p {
         @include font(13px, 100, $h-color, 1.8);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Vazir;
     }
 }
 
@@ -46,17 +46,17 @@
 
     h2 {
         @include font(55px, 500, $h-color, 1.8);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Vazir;
     }
 
     h3 {
         @include font(35px, 500, $y-color, 1.8);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Vazir;
     }
 
     p {
         @include font(19px, 400, $h-color, 1.8);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Vazir;
     }
 
     a {
@@ -66,7 +66,7 @@
         border: 2px solid $y-color;
         margin-top: 3rem;
         @include font(19px, 400, $y-color, 1.8);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Vazir;
 
         &:hover {
             transition: all 0.2s ease-in-out;

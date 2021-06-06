@@ -15,6 +15,7 @@
 body {
   background: url(../../imgs/pattern-body.jpg);
   background-repeat: repeat;
+  font-family: Vazir !important;
 }
 
 /**
@@ -53,7 +54,7 @@ body {
   font-weight: 400;
   color: #f0eeee;
   line-height: 1.8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Vazir;
 }
 
 #info-list h3 {
@@ -61,7 +62,7 @@ body {
   font-weight: 400;
   color: #ff5e00;
   line-height: 1.8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Vazir;
 }
 
 #info-list p {
@@ -69,7 +70,7 @@ body {
   font-weight: 100;
   color: #f0eeee;
   line-height: 1.8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Vazir;
 }
 
 .slider-desc {
@@ -81,7 +82,7 @@ body {
   font-weight: 500;
   color: #f0eeee;
   line-height: 1.8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Vazir;
 }
 
 .slider-desc h3 {
@@ -89,7 +90,7 @@ body {
   font-weight: 500;
   color: #d49c0e;
   line-height: 1.8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Vazir;
 }
 
 .slider-desc p {
@@ -97,7 +98,7 @@ body {
   font-weight: 400;
   color: #f0eeee;
   line-height: 1.8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Vazir;
 }
 
 .slider-desc a {
@@ -110,7 +111,7 @@ body {
   font-weight: 400;
   color: #d49c0e;
   line-height: 1.8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Vazir;
 }
 
 .slider-desc a:hover {
